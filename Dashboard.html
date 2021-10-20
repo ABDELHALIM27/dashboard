@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Main Template Css File -->
+  <link rel="stylesheet" href="CSS/Dashboard.css" />
+  <!-- Render All Elements Normally -->
+  <link rel="stylesheet" href="CSS/normalize.css" />
+  <!-- Fonts Library -->
+  <link rel="stylesheet" href="CSS/all.min.css" />
+  <!-- Google Fonts -->
+
+  <title>Admin Dashboard</title>
+</head>
+<body>
+  <!-- START MENU BAR -->
+  <div class="container">
+    <div class="menu_bar">
+      <ul>
+        <li>
+          <a class="brand" href="#">
+            <span class="logo"><ion-icon name="logo-apple"></ion-icon></span>
+            <span class="title">Brand Name</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="logo"><ion-icon name="home-outline"></ion-icon></span>
+            <span class="title">Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="logo"><ion-icon name="people-outline"></ion-icon></span>
+            <span class="title">Customers</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="logo"><ion-icon name="chatbubble-outline"></ion-icon></span>
+            <span class="title">Message</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="logo"><ion-icon name="settings-outline"></ion-icon></span>
+            <span class="title">Settings</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="logo"><ion-icon name="lock-closed-outline"></ion-icon></span>
+            <span class="title">Password</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="logo"><ion-icon name="help-outline"></ion-icon></span>
+            <span class="title">Help</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="logo"><ion-icon name="log-out-outline"></ion-icon></span>
+            <span class="title">Sign Out</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  <!-- END MENU BAR -->
+
+  <!-- START HEADER SECTION  -->
+    <div class="main">
+      <div class="header">
+        <div class="toggle">
+          <ion-icon name="reorder-three-outline"></ion-icon>
+        </div>
+        <div class="search">
+          <label>
+            <input type="text" name="search" id="search" placeholder="Search here" />
+            <ion-icon name="search-outline"></ion-icon>
+          </label>
+        </div>
+        <div class="user-photo">
+          <img src="https://via.placeholder.com/30/30" alt="" />
+        </div>
+      </div>
+      <!-- END HEADER SECTION  -->
+
+      <!-- START SUB HEADER SECTION  -->
+    <div class="sub-header">
+      <div class="card">
+        <div class="counter">
+          <span>1,009</span>
+          <p>Daily Views</p>
+        </div>
+        <div class="icon">
+          <ion-icon name="eye-outline"></ion-icon>
+        </div>
+      </div>
+      <div class="card">
+        <div class="counter">
+          <span>40</span>
+          <p>Sales</p>
+        </div>
+        <div class="icon">
+          <ion-icon name="card-outline"></ion-icon>
+        </div>
+      </div>
+      <div class="card">
+        <div class="counter">
+          <span>284</span>
+          <p>Comments</p>
+        </div>
+        <div class="icon">
+          <ion-icon name="chatbubbles-outline"></ion-icon>
+        </div>
+      </div>
+      <div class="card">
+        <div class="counter">
+          <span>$963</span>
+          <p>Earning</p>
+        </div>
+        <div class="icon">
+          <ion-icon name="cash-outline"></ion-icon>
+        </div>
+      </div>
+    </div>
+  <!-- END SUB HEADER SECTION  -->
+
+  <!-- START BODY SECTION  -->
+    <div class="body">
+      <div class="orders">
+        <div class="heading">
+          <h3>Recent Orders</h3>
+          <button>View All</button>
+        </div>
+        
+        <table>
+          <thead>
+            <tr>
+              <td class="name">Name</td>
+              <td>Price</td>
+              <td>Payment</td>
+              <td class="status">Status</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="name">Fadwa chatibi</td>
+              <td>$25</td>
+              <td>Due</td>
+              <td class="status">
+                <p class="Progress">In Progress</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="name">Nezha saadi</td>
+              <td>$25</td>
+              <td>Paid</td>
+              <td class="status">
+                <p class="delivred">Delivred</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="name">Loubna Soryan</td>
+              <td>$25</td>
+              <td>Paid</td>
+              <td class="status">
+                <p class="return">return</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="name">Mina farah</td>
+              <td>$25</td>
+              <td>Paid</td>
+              <td class="status">
+                <p class="delivred">Delivred</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="name">Meryam lhad</td>
+              <td>$25</td>
+              <td>Due</td>
+              <td class="status">
+                <p class="pending">pending</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="name">Hafsa kanoni</td>
+              <td>$25</td>
+              <td>Paid</td>
+              <td class="status">
+                <p class="Progress">In Progress</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="name">Fatima boaanani</td>
+              <td>$25</td>
+              <td>Due</td>
+              <td class="status">
+                <p class="delivred">Delivred</p>
+              </td>>
+            </tr>
+            <tr>
+              <td class="name">Latifa rabi</td>
+              <td>$25</td>
+              <td>Paid</td>
+              <td class="status">
+                <p class="pending">pending</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="name">Kaoutar fnina</td>
+              <td>$25</td>
+              <td>Due</td>
+              <td class="status">
+                <p class="return">return</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="name">Salma boujar</td>
+              <td>$25</td>
+              <td>Due</td>
+              <td class="status">
+                <p class="delivred">Delivred</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="name">fatima oueladi</td>
+              <td>$25</td>
+              <td>Paid</td>
+              <td class="status">
+                <p class="Progress">In Progress</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="name">Sara Khaldi</td>
+              <td>$25</td>
+              <td>Due</td>
+              <td class="status">
+                <p class="pending">pending</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="name">Omaima wdina</td>
+              <td>$25</td>
+              <td>Due</td>
+              <td class="status">
+                <p class="delivred">Delivred</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="name">Bouchra radi</td>
+              <td>$25</td>
+              <td>Paid</td>
+              <td class="status">
+                <p class="return">return</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="customers">
+        <div class="heading">
+          <h3>Recent Customers</h3>
+        </div>
+        <div class="customers-list">
+          <ul>
+            <li>
+              <div class="photo"><img src="https://via.placeholder.com/30/30" alt="" /></div>
+              <div class="info">
+                <span class="name">Mourad</span>
+                <span class="country">Morocco</span>
+              </div>
+            </li>
+            <li>
+              <div class="photo"><img src="https://via.placeholder.com/30/30" alt="" /></div>
+              <div class="info">
+                <span class="name">Sara</span>
+                <span class="country">Morocco</span>
+              </div>
+            </li>
+            <li>
+              <div class="photo"><img src="https://via.placeholder.com/30/30" alt="" /></div>
+              <div class="info">
+                <span class="name">Mohamed</span>
+                <span class="country">Algerie</span>
+              </div>
+            </li>
+            <li>
+              <div class="photo"><img src="https://via.placeholder.com/30/30" alt="" /></div>
+              <div class="info">
+                <span class="name">Mustafa</span>
+                <span class="country">Egybt</span>
+              </div>
+            </li>
+            <li>
+              <div class="photo"><img src="https://via.placeholder.com/30/30" alt="" /></div>
+              <div class="info">
+                <span class="name">David</span>
+                <span class="country">Italy</span>
+              </div>
+            </li>
+            <li>
+              <div class="photo"><img src="https://via.placeholder.com/30/30" alt="" /></div>
+              <div class="info">
+                <span class="name">Pablo</span>
+                <span class="country">Spain</span>
+              </div>
+            </li>
+            <li>
+              <div class="photo"><img src="https://via.placeholder.com/30/30" alt="" /></div>
+              <div class="info">
+                <span class="name">Reda</span>
+                <span class="country">Morocco</span>
+              </div>
+            </li>
+            <li>
+              <div class="photo"><img src="https://via.placeholder.com/30/30" alt="" /></div>
+              <div class="info">
+                <span class="name">Rim</span>
+                <span class="country">Tunisie</span>
+              </div>
+            </li>
+            <li>
+              <div class="photo"><img src="https://via.placeholder.com/30/30" alt="" /></div>
+              <div class="info">
+                <span class="name">Lynn</span>
+                <span class="country">United State</span>
+              </div>
+            </li>
+            <li>
+              <div class="photo"><img src="https://via.placeholder.com/30/30" alt="" /></div>
+              <div class="info">
+                <span class="name">Amine</span>
+                <span class="country">Morocco</span>
+              </div>
+            </li>
+            <li>
+              <div class="photo"><img src="https://via.placeholder.com/30/30" alt="" /></div>
+              <div class="info">
+                <span class="name">Souad</span>
+                <span class="country">Morocco</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  <!-- END BODY SECTION  -->
+    </div>
+</div>
+
+
+
+
+  <!-- START SCRIPT -->
+
+  <!-- JS FILE  -->
+  <script src="JS/Dashboard.js"></script>
+
+  <!-- ICON SCRIPT  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- END SCRIPT-->
+</body>
+</html>
